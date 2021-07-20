@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charsheet ="UTF-8">
+        <title> Responsive Personal Portfolio Website</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="custom.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="typed.min.js"></script>
+    </head>
+    <body>
+        
+        <header>
+            <nav>
+                <div class ="logo"> PORTFO<span>LIO</span></div>
+                <div class ="menu">
+                    <a href="#"> Home</a>
+                    <a href="#"> About</a>
+                    <a href="#"> Skills</a>
+                    <a href="#"> Services</a>
+                    <a href="#"> Contact</a>
+                
+                </div>
+            </nav>
+            <div class ="text">
+            <p> Hello , I am </p>
+            <h1> Sumit kumar</h1>
+            <p>And I am   <span id="muv" style ="color:crimson;"></span></p>
+            <button class="c-btn">Hire me</button>
+            </div>
+            
+        </header>
+            <section id ="sidenav">
+                <img src= "images/menubar.png" id = "menubar">
+                <a href="#"> Home</a>
+                <a href="#"> About</a>
+                <a href="#"> Skills</a>
+                <a href="#"> Services</a>
+                <a href="#"> Contact</a>
+             
+            </section>
+           <section id = "about"> 
+                <div class ="section-info">
+                    <h1>About</h1>
+                    <p>Who i am?</p>
+                </div>
+                <div class="about-row">
+                    <div class ="about-left-col">
+                        <img src="images/my.jpeg">
+                    </div>
+
+                    <div class ="about-right-col">
+                        <p id="p-title"> Hello , I'm Sumit & I'm  <span id="muv1" style ="color:crimson;"></span></p>
+                        <p> 
+                            I am a highly ambitious person with big dreams for my future.
+                            I love traveling to hill stations.
+                            I love my parents a lot. ...
+                            I want to become a full stack developer ,when I grow up.
+                            I believe I am an empathetic and compassionate person.
+                        </p>
+                        <button  class="c-btn"> Download cv</button>
+                    </div>
+
+                    </div>
+            </section> 
+            
+            
+               <section id="skills">
+                <div class ="section-info">
+                    <h1 style="color: white;">Skill's</h1>
+                    <p>Who i am?</p>
+                </div>
+
+                <div class="skills-row">
+                    <div class ="skills-left-col">
+                        <p> 
+                            I am a highly ambitious person with big dreams for my future.
+                            I love traveling to hill stations.
+                            I love my parents a lot. ...
+                             I grow up.
+                            I believe I am an empathetic and compassionate person.
+                        </p>
+                       <button  class="c-btn"> Read more</button>
+                    </div>
+                    <div class ="about-right-col">
+                        <div class="progress-div">
+                            <p>
+                            <span>HTML</span><br>
+                            <progress value="90" max="100"></progress>
+                            <snap>90%</snap>
+                            </p>
+                            <p>
+                                <span>CSS</span><br>
+                                <progress value="80" max="100"></progress>
+                                <snap>80%</snap>
+                                </p>
+                                <p>
+                                    <span>JAVATSCRIP</span><br>
+                                    <progress value="70" max="100"></progress>
+                                    <snap>70%</snap>
+                                    </p>
+                                    <p>
+                                        <span>PYTHON</span><br>
+                                        <progress value="75" max="100"></progress>
+                                        <snap>75%</snap>
+                                        </p>
+                                        <p>
+                                            <span>TKINTER</span><br>
+                                            <progress value="95" max="100"></progress>
+                                            <snap>95%</snap>
+                                            </p>
+                                        <p>
+                                            <span>BOOTSTRAP</span><br>
+                                            <progress value="80" max="100"></progress>
+                                            <snap>80%</snap>
+                                            </p>
+                                            <p>
+                                                <span>C</span><br>
+                                                <progress value="60" max="100"></progress>
+                                                <snap>60%</snap>
+                                                </p>
+                    </div>
+
+                </div>
+               </section>
+               <section id="services">
+                    <div class ="section-info">
+                    <h1>Services</h1>
+                    <p>What we Provide</p>
+                </div>
+                <div class= "services-row">
+                    <div class="services-box"data-tilt>
+                        <img src="images/b2.png">
+                        <h2>Web Design</h2>
+                        <p> "A web designer works on the appearance, layout,
+                            and, in some cases, content of a website"
+                        </p>
+                    </div>
+                    <div class="services-box"data-tilt>
+                        <img src="images/b2.png">
+                        <h2>Web Development</h2>
+                        <p>“We love what we do and we do what our clients love & work with great clients
+                            all over the world to create thoughtful and purposeful websites.”</p>
+                    </div>
+                    <div class="services-box"data-tilt>
+                        <img src="images/b2.png">
+                        <h2>Software Development</h2>
+                        <p>“We love what we do and we do what our clients love & work with great clients
+                            all over the world to create thoughtful and purposeful websites.”</p>
+
+                    </div>
+                </div>
+                </section>
+                <section id="Contact">
+                    <div class ="section-info" style="color: black";>
+                        <h1>Get in Touch</h1>
+                        <p  style="color: crimson;">We are Available</p>
+                    </div>
+                    <div class="Contact-row">
+                        <div class="Contact-left-col">
+                             <!-- <img src="images/b3.jpeg"> -->
+                        </div>
+                        <div class ="contact-right-col">
+                            <form>
+                            <h2>Connect with us</h2>
+                            <input type="text" name ="" placeholder ="Name">
+                            <input type="email" name ="" placeholder ="E-mail">
+                            <br>
+                            <textarea cols="40" rows="10" placeholder="Message"></textarea>
+                            <br>
+                            <button class= "c-btn">Submit</button>
+                            <br>
+                            <br>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <section id ="footer">
+                    <h2>Developed by Sumit kumar</h2>
+                    <img src="images/icon.png"    width="70">
+                </section>
+<script src="jquery.ripples-min.js"></script>
+<script>
+    jQuery(document).ready(function(){
+        $("header").ripples({
+  dropRadius: 20,
+  perturbance: 0.03,
+});
+    });
+</script> 
+
+<script>
+    let animate = new Typed('#muv',{
+        strings:[" a Front End Developer", " an Enginear",],
+        typeSpeed:100,
+        backSpeed:100,
+        loop:true,
+    })
+</script>
+
+<script>
+    let animat = new Typed('#muv1',{
+        strings:[" a Front End Developer", " an Enginear",],
+        typeSpeed:100,
+        backSpeed:100,
+        loop:true,
+    })
+</script>
+
+<script src= "tilt.jquery.min.js"></script>
+
+<script>
+    var menu=document.getElementById("menubar");
+    var sidenav=document.getElementById("sidenav");
+    sidenav.style.width= "0px";
+    menu.onclick=function(){
+        if(sidenav.style.width=="0px"){
+            sidenav.style.width="250px";
+        }
+        else{
+            sidenav.style.width= "0px";
+        }
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
